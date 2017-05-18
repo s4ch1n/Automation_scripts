@@ -10,11 +10,11 @@
 ##############################################################################################
 
 # Kerberos ticket cache file location
-export KRB5CCNAME=/opt/mstr/krb_apservices_tktcache
+export KRB5CCNAME=/opt/mstr/krb_user1_tktcache
 # Kerberos keytab location
-export KRB5_KTNAME=apservices.keytab
+export KRB5_KTNAME=user1.keytab
 # Kerberos principal name 
-export KRB_PRICIPALNAME=apservices@ENT.LOCAL
+export KRB_PRICIPALNAME=user1@ENT.LOCAL
 
 ##############################################################################################
 
